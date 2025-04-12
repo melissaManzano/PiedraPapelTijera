@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c2e9fb, #a1c4fd);
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    font-size: 3em;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* Botones de opciones */
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Contenedor de juego (si se agregara interfaz visual futura) */
+#contenedor-juego {
+    margin-top: 30px;
+}
+
+/* Mensajes de alerta (puedes usar con elementos HTML si deseas reemplazar prompts/alerts en el futuro) */
+.mensaje {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #2d3436;
+}
